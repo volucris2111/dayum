@@ -5,10 +5,10 @@ metadata:
    labels:
       name: customer-pod
       app: project-dayum
-		
+      
 spec:
    containers:
       - name: project-dayum
         image: volucris/dayum
         ports:
-           - containerPort: 80
+        - containerPort: 80
