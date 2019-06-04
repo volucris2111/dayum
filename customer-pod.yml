@@ -1,15 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-    name: customer-pod
-    labels:
-        name: customer-pod
-        app: project-dayum
+   name: customer-pod
+   labels:
+      name: customer-pod
+      app: project-dayum
 		
 spec:
-    containers:
-        - name: project-dayum
-          image: volucris/dayum
-          ports:
-            - containerPort: 80
-      
+   containers:
+      - name: project-dayum
+        image: volucris/dayum
+        ports:
+           - containerPort: 80
