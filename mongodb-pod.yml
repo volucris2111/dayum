@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+    name: mongodb-pod
+    labels:
+        name: mongodb-pod
+        app: project-dayum
+		
+spec:
+    containers:
+        - name: mongo
+          image: mongo
+          ports:
+            - containerPort: 8081
+      
